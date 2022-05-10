@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.slide5{
+    z-index: 5;
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    box-sizing: border-box;
+}
+
+.box{
+    width: 25em;
+    height: 30em;
+    position: relative;
+    border: solid 10px #F96303;
+    border-radius: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.signup{
+    position: absolute;
+    width: 90%;
+    height: 25em;
+    left: 0;
+    bottom: 0;
+    background-color: inherit;
+     padding: 0px 20px;
+    transition: 0.5s;
+}
+
+.login{
+    position: absolute;
+    width: 90%;
+    height: 25em;
+    left: 101%;
+    bottom: 0;  
+    background-color: inherit;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.input-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login .input-group{
+    margin-top: 2em;
+    color: #f6f6f6;
+}
+
+
+.input-group label{
+    color: #f6f6f6;
+}
+ 
+.input-group .inp{
+    padding: 10px 50px;
+    border-radius: 100px;
+    background: inherit;
+    border: 3px solid #F96303;
+    margin-top: 5px;
+    color: #f6f6f6;
+}
+
+.input-group .submit-inp{
+    color: #f6f6f6;
+    margin: 20px 80px;
+    background: #F96303;
+    border-radius: 100px;
+    height: 3em;
+    width: 12em;
+    padding: 6px 10px;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+}
+
+
+.toggle-btn{
+    z-index: 1;
+    -webkit-appearance: none;
+    width: 10em;
+    height: 3em;
+    border: 1px solid #F96303;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 75px);
+    border-radius: 100px;
+}
+
+.toggle-btn::before{
+    content: 'SignUp';
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 70%;
+    border-radius: 100px;
+    display: grid;
+    place-items: center;
+    background: #F96303;
+    border-radius: 100px;
+    padding: 6px 10px;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+
+.toggle-btn:checked::before{
+    content: 'LogIn';
+    left: 35%;
+}
+
+
+.toggle-btn:checked + .signup{
+    left: -101%;
+}
+
+
+.toggle-btn:checked + .signup + .login{
+    left: 0%;
+}
+
+/* .scroll img{
+    height: 3em;
+    transform: translate(30em, 20em);
+} */
+
+.submit-inp{
+    color: #f6f6f6;
+    margin: 20px 80px;
+    background: #F96303;
+    border-radius: 100px;
+    height: 3em;
+    width: 12em;
+    padding: 6px 10px;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+}

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'blueberryregular';
+    src: url('../webfontkit-20220418-012618/blueberry_-webfont.woff2') format('woff2'),
+         url('../webfontkit-20220418-012618/blueberry_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload{
+    height: 60rem;
+}
+.head{
+    font-family: 'blueberryregular';
+    font-size: 5rem;
+    color: #f6f6f6;
+    letter-spacing: 0.5rem;
+    margin: 3.5rem 0rem 0 4rem;
+}
+.search{
+    display: flex;
+    margin-left: 6rem;
+}
+.search img{
+    height: 7rem;
+    margin-left: 0.5rem;
+    transform: translate(-10rem, 3.6rem);
+}
+.search-bar{
+    background-color: #f6f6f6;
+    color: #F96303;
+    border-radius: 100rem;
+    width: 41rem;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin: 4.2rem 1rem;
+    padding: 1.5rem 7rem 1.5rem 1rem;
+    cursor: pointer;
+} 
+
+.uploaded_books{
+    height: 35rem;
+    width: 55rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 0.5rem solid #F96303;
+}
+
+.upload-btn{
+    color: white;
+    background-color: #F96303;
+    border-radius: 100rem;
+    height: 6.3rem;
+    width: 23rem;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    transform: translate(15rem, 2rem);
+}
+
+.book2 img{
+    height: 3rem;
+    transform: rotate(7deg) translate(0rem, 0rem);
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .uploaded_books{
+        height: 80rem;
+        width: 55rem;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    .uploaded_books{
+        height: 80rem;
+        width: 55rem;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 30%;
+    }
+    .uploaded_books{
+        height: 100rem;
+        width: 55rem;
+    }
+}

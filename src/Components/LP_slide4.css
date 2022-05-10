@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.slide4{
+    height: 100vh;
+    color: white;
+    z-index: 4;
+}
+
+.exchange{
+    transform: translate(34em, 1em);
+}
+
+.s4-l1{
+    font-size: 1.9em;
+    transform: translate(18em, -1.5em);
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+.find{
+    transform: translate(63em, -8.5em);
+}
+
+.find img{
+    height: 4em;
+}
+
+.s4-l2{
+    font-size: 1.9em;
+    transform: translate(19em, -5em);
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+.handshake{
+    transform: translate(62em, -15em);
+}
+
+.handshake img{
+    height: 4em;
+    transform: rotate(270deg);
+}
+
+.btn-4 {
+    color: white;
+    background-color: #F96303;
+    border-radius: 100px;
+    height: 63px;
+    padding: 8px 65px;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.9em;
+    transform: translate(200%, -7em);
+}

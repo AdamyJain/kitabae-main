@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'blueberryregular';
+    src: url('../webfontkit-20220418-012618/blueberry_-webfont.woff2') format('woff2'),
+         url('../webfontkit-20220418-012618/blueberry_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'blueberryregular';
+    overflow-x: hidden;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+}
+
+.slide1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    z-index: 1;
+}
+
+.logo img{
+    height: 30em;
+    width: 30em;
+    margin: 25% 0 0 100%;
+    cursor:none;
+}
+
+.tagline{
+    color: white;
+    font-size: 3.25em;
+    line-height: 0.3em;
+    letter-spacing: 0.11em;
+    transform: translate(7em, 1.5em);
+}
+
+.tagline #p3{
+    font-size: 1.23em;
+}
+.btn-1 {
+    color: white;
+    background-color: #F96303;
+    border-radius: 100px;
+    height: 63px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.6em;
+    transform: translate(-18em,21em);
+} 
+
+
+
+
+/* 
+@media (max-width:450rem) {
+    .slide1 {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .logo img {
+        height: 75vh;
+        width: 75vw;
+        margin: -40% 13%;
+    }
+
+    .tagline {
+        margin: -10% -35% 0 27%;
+        font-size: 1.5px;
+    }
+    
+.btn-1 {
+    font-size: 1.4em; 
+    margin: 31% -59rem 0 64rem;
+}
+}
+
+@media (min-width:451rem) and (max-width:950rem) {
+    .slide1 {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .logo img {
+        height: 75vh;
+        width: 75vw;
+        margin: -40% 13%;
+    }
+
+    .tagline {
+            margin: 30% 0 0 45%;
+    font-size: 40px;
+    }
+    
+.btn-1 {
+    font-size: 1.4em; 
+    margin: 25% 0 0 45%;
+}
+} */
+

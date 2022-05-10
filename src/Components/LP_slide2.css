@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.slide2{
+    height: 100vh;
+    color: white;
+    z-index: 2;
+}
+
+.book{
+    transform: translate(34em, 5em);
+}
+
+.book img{
+    height: 9em;
+}
+
+.fwd-arr{
+    transform: translate(36em, -16.5em);
+}
+
+.bwd-arr{
+    transform: translate(36em, -42.8em);
+}
+
+
+.leaf {
+    transform: translate(58.5em, -66.7em);
+}
+
+.leaf img{
+    height: 6em;
+}
+.l1{
+        transform: translate(29%, -27em);
+        color: white;
+        font-size: 2.2em;
+        letter-spacing: 0.15em;
+}
+
+.l2{
+    transform: translate(27%, -30em);
+    color: white;
+    font-size: 2.2em;
+    letter-spacing: 0.15em;
+}
+
+.btn-2 {
+    color: white;
+    background-color: #F96303;
+    border-radius: 100px;
+    height: 63px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: 'Blueberry', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 1.6em;
+    transform: translate(100%, -41em);
+} 
+
+.leaf2 img{
+    height: 3em;
+    transform: translate(70.55em, -65em);
+}
+
+.book2 img{
+    height: 3em;
+    transform: rotate(7deg) translate(63.75em, -80em);
+}
+Link{
+    transform: translate(100%, -41em);
+}
